@@ -8,7 +8,7 @@ import './App.scss';
 
 export const App = () => {
   const notify = () =>
-    toast.info('Inscrição confirmada com sucesso!', {
+    toast.info('High Sir', {
       closeButton: false,
       theme: 'colored',
     });
@@ -20,9 +20,9 @@ export const App = () => {
 
         <Counter />
 
-        <p>Sign up to learn more about the launch</p>
+        <p>One day, all your hard work will pay off</p>
 
-        <button onClick={notify}>sign up</button>
+        <button onClick={notify}>How’s the Josh?</button>
 
         <ToastContainer
           theme="dark"
